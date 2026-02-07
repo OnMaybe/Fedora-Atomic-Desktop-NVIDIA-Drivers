@@ -29,7 +29,7 @@ xorg-x11-drv-nvidia-power (Fixes mediante trigers de systemd para gestion de ene
 
 "rpm-ostree kargs append="
 
-# Enlaces: 
+# Enlaces
 
 Si tienes activo el SecureBoot, requieres de compilar tu propio paquete con las claves para que el sistema pueda validar la cadena de confianza: https://github.com/CheariX/silverblue-akmods-keys
 
