@@ -1,6 +1,7 @@
 
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-Listado de cosas propietaria que hay que instalar en fedora atomic desktop para que nvidia haga lo suyo, gracias Jensen Huang por amar linux.									     
+
+# Listado de cosas propietaria que hay que instalar en fedora atomic desktop para que nvidia haga lo suyo, gracias Jensen Huang por amar linux.									     
 
 akmod-nvidia (Recompilador de el modulo del kernel)
 
@@ -20,13 +21,13 @@ El paquete "org-x11-drv-nvidia-power" requiere ser activado mediante "systemctl 
 
 Tecnologias como CUDA, HVENC y """VAAPI""" lo suministra runtimes de flatpak o por medio de contenedores de podman, no son necesarias desde el host al menos si usas este paradigma de manera ortodoxa.	
 
-Comandos Ostree:
+# Comandos Ostree:
 
 "rpm-ostree update"
 "rpm-ostree install"
 "rpm-ostree kargs append=''"
 
-Enlaces: 
+# Enlaces: 
 
 Si tienes activo el SecureBoot, requieres de compilar tu propio paquete con las claves para que el sistema pueda validar la cadena de confianza: https://github.com/CheariX/silverblue-akmods-keys
 
@@ -34,4 +35,5 @@ Verifica si tu tarjeta de video es compatible con el driver Nova, proporcionado 
 https://github.com/NVIDIA/open-gpu-kernel-modules?tab=readme-ov-file#compatible-gpus
 
 Recopilacion sacada de: https://rpmfusion.org
+
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
