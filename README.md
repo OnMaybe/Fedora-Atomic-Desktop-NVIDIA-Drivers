@@ -21,7 +21,7 @@ xorg-x11-drv-nvidia-power (Fixes mediante trigers de systemd para gestion de ene
 
 4. Tecnologias como CUDA, HVENC y """VAAPI""" lo suministra runtimes de flatpak o por medio de contenedores de podman, no son necesarias desde el host al menos si usas este paradigma de manera ortodoxa.	
 
-# Comandos Ostree:
+# Comandos Ostree
 
 "rpm-ostree update"
 
