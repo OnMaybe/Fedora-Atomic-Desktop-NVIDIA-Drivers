@@ -1,7 +1,7 @@
 
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-# Listado de cosas propietaria que hay que instalar en fedora atomic desktop para que nvidia haga lo suyo, gracias Jensen Huang por amar linux.									     
+# Fedora-Atomic-Desktop-NVIDIA-Drivers.									     
 
 akmod-nvidia (Recompilador de el modulo del kernel)
 
