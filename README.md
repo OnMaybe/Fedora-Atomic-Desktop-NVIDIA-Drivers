@@ -1,7 +1,7 @@
 
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-# Fedora-Atomic-Desktop-NVIDIA-Drivers.									     
+# Paquetes.									     
 
 akmod-nvidia (Recompilador de el modulo del kernel)
 
@@ -11,6 +11,7 @@ xorg-x11-drv-nvidia-libs (Aceleracion grafica)
 
 xorg-x11-drv-nvidia-power (Fixes mediante trigers de systemd para gestion de energia y estados del sistema)
 
+# Aclaraciones
 
 1. Es imperativo aclarar que para la correcta instalacion de los componentes, debes de asegurarte activar los repositorios parciales suministrados por rpm-fusion mediante gnome software o por medio del comando "fedora-third-party enable".				
 
