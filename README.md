@@ -27,7 +27,7 @@ Tecnologias como CUDA, HVENC y """VAAPI""" lo suministra runtimes de flatpak o p
 
 "rpm-ostree install"
 
-"rpm-ostree kargs append=''"
+"rpm-ostree kargs append="
 
 # Enlaces: 
 
